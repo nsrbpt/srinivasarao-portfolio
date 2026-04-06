@@ -8,9 +8,18 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        syne: ["var(--font-syne)"],
+        mono: ["var(--font-jetbrains-mono)"],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        neon: {
+          teal: "#00f5c4",
+          blue: "#00b4ff",
+          green: "#39ff14",
+        },
       },
     },
   },
